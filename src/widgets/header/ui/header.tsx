@@ -1,17 +1,27 @@
-import { ButtonGl } from '@/shared/ui/button'
+'use client'
+import { ButtonBr } from '@/shared/ui/button'
 import React from 'react'
+import './header.css'
+import Image from 'next/image'
+import { Logo } from '@/shared/assets/icons'
+import { SearchInput } from '@/shared/ui/searchInput'
 
-const Header = () => {
+export const Header = () => {
     return (
-        <div>
-            <div className="">
-                Header
+        <div className='header-container'>
+            <div className="logo-div">
+                <Logo />
+                <p>MyCourse.io</p>
             </div>
-            <ButtonGl>
-                Login
-            </ButtonGl>
+            <div className="search-contant">
+                <SearchInput/>
+            </div>
+            <ButtonBr
+                className='custom-button'
+            >
+                {'Login'}
+            </ButtonBr>
+
         </div>
     )
 }
-
-export default Header

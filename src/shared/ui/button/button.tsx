@@ -1,29 +1,26 @@
 import React, { FC } from 'react';
 import { Button } from '@nextui-org/button';
+import './button.css'
 
 interface IButton {
-    readonly Icon: React.FunctionComponent<
-        React.SVGProps<SVGSVGElement> & {
-            title?: string | undefined
-        }
-    >
-    readonly onClick?: () => void
-    readonly title: string
-    readonly className?: string
+    children: string;
+    onClick?: () => void;
+    className?: string;
 }
 
-export const ButtonGl: FC<IButton> = (props) => {
+export const ButtonBr: FC<IButton> = (props) => {
     const {
-        title,
+        children,
         onClick,
-        className
+        className,
     } = props
     return (
-        <Button 
-        // onClick={onclick}
-        color='primary'
+        <Button
+            variant='bordered'
+            className={className}
+            fullWidth
         >
-            
+            {children}
         </Button>
     )
 }
