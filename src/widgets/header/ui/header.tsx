@@ -3,8 +3,9 @@ import { ButtonBr } from '@/shared/ui/button'
 import React from 'react'
 import './header.css'
 import Image from 'next/image'
-import { Logo } from '@/shared/assets/icons'
+import { Cart, Logo, Timelapse } from '@/shared/assets/icons'
 import { SearchInput } from '@/shared/ui/searchInput'
+import { IconButton } from '@/shared/ui/iconButton'
 
 export const Header = () => {
     return (
@@ -13,15 +14,31 @@ export const Header = () => {
                 <Logo />
                 <p>MyCourse.io</p>
             </div>
-            <div className="search-contant">
-                <SearchInput/>
+            <div className="header-items">
+                <div className="search-contant">
+                    {/* <SearchInput/> */}
+                    <input
+                        type="search"
+                        placeholder='Search for course...'
+                    />
+                </div>
+                <p>Become Instructor</p>
+                <div className="cart">
+                    <Cart />
+                    <p>6</p>
+                </div>
+                <ButtonBr
+                    className='custom-button'
+                >
+                    {'Login'}
+                </ButtonBr>
+                <IconButton
+                    startIcon={<Timelapse />}
+                    className='sign-up-btn'
+                >
+                    {'Sign Up'}
+                </IconButton>
             </div>
-            <ButtonBr
-                className='custom-button'
-            >
-                {'Login'}
-            </ButtonBr>
-
         </div>
     )
 }

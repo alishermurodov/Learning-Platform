@@ -2,7 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-
+/* .layout-body {
+  height: 500px;
+} */
 
 /* :root {
   --foreground-rgb: 0, 0, 0;
