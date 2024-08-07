@@ -1,4 +1,25 @@
-.home-content{
+.home-content {
     width: 83%;
     margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.home-tabs {
+    /* width: 1700px; */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+
+.home-tab-button {
+    height: 37px;
+    font-size: 13px;
+    width: auto;
+    padding: 0 16px;
+}
+
+.home-tab-button:hover{
+    border-color: #3dcbb1;
+    color: #3dcbb1;
 }

@@ -4,6 +4,8 @@ import { EmblaOptionsType } from 'embla-carousel'
 import '@/shared/ui/emblaCarousel/embla.css'
 import './home.css'
 import Image from 'next/image'
+import { ButtonBr } from '@/shared/ui/button'
+import { RatingComponent } from '@/shared/ui/ratingStar'
 
 const SLIDES = [
   {
@@ -30,13 +32,34 @@ const SLIDES = [
   },
 ]
 
+const Tabs = [
+  { id: 1, title: "All Recommendation" },
+  { id: 2, title: "Adobe Illustrator" },
+  { id: 3, title: "Adobe Photoshop" },
+  { id: 4, title: "UI Design" },
+  { id: 5, title: "Web Programming" },
+  { id: 6, title: "Mobile Programming" },
+  { id: 7, title: "Backend Development" },
+  { id: 8, title: "Vue JS" },
+]
+
 const Home = () => {
 
   const OPTIONS: EmblaOptionsType = {}
 
   return (
     <div className='home-content'>
-      <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      <div className="home-carousel">
+        <EmblaCarousel slides={SLIDES} options={OPTIONS} />
+      </div>
+      <div className="home-tabs">
+        {Tabs && Tabs.map(tab => (
+          <ButtonBr className='home-tab-button'>
+            {tab.title}
+          </ButtonBr>
+        ))}
+      </div>
+      <RatingComponent/>
     </div>
   )
 }
