@@ -145,7 +145,7 @@ style="width: 600px; height: 400px"
 
 * В следующем странице нужно будет выбрать тип соединение выбираем локальное :
 <img src="https://hissing-tibia-07d.notion.site/image/attachment%3Add2aa609-b7fc-4be3-950d-b6a0d1ff8c70%3A%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png?table=block&id=1c4276c8-b809-801d-b257-ff00590edfad&spaceId=89e8f60b-a87c-4e42-8eee-49efc96562bc&width=1420&userId=&cache=v2" alt="UI Screenshot" 
-style="width: 600px; height: 400px"
+style="width: 450px"
 />
 
 * Последний шаг это Авторизационные данные терминала 
