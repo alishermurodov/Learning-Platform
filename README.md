@@ -138,7 +138,9 @@ Ekiosk/
 ![UI Screenshot](https://hissing-tibia-07d.notion.site/image/attachment%3A20ca26fa-8e68-4aa6-87a5-d37dc25d819f%3A%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png?table=block&id=1c4276c8-b809-80c5-aeb7-e1cd6e56770d&spaceId=89e8f60b-a87c-4e42-8eee-49efc96562bc&width=1420&userId=&cache=v2)
 
 * В следующем странице нужно будет выбрать тип соединение выбираем локальное :
-![UI Screenshot](https://hissing-tibia-07d.notion.site/image/attachment%3Add2aa609-b7fc-4be3-950d-b6a0d1ff8c70%3A%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png?table=block&id=1c4276c8-b809-801d-b257-ff00590edfad&spaceId=89e8f60b-a87c-4e42-8eee-49efc96562bc&width=1420&userId=&cache=v2)
+<img src="https://hissing-tibia-07d.notion.site/image/attachment%3Add2aa609-b7fc-4be3-950d-b6a0d1ff8c70%3A%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png?table=block&id=1c4276c8-b809-801d-b257-ff00590edfad&spaceId=89e8f60b-a87c-4e42-8eee-49efc96562bc&width=1420&userId=&cache=v2" alt="UI Screenshot" 
+style="width: 600px; height: auto"
+/>
 
 * Последний шаг это Авторизационные данные терминала 
 * Логин это номер терминала 
@@ -150,6 +152,6 @@ Ekiosk/
 * Вставляем отп и нажимаем далее если вы всё верно ввели то после не долгой загрузки вы окажетесь в
 * главном странице терминала :
 
-<img src="https://hissing-tibia-07d.notion.site/image/attachment%3A50773a68-1fef-427f-9b5d-0e2f918f4c08%3A%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png?table=block&id=1c4276c8-b809-8075-8c7a-dc0f0fafc77c&spaceId=89e8f60b-a87c-4e42-8eee-49efc96562bc&width=1420&userId=&cache=v2" alt="UI Screenshot"
-style="width: 700px; height: auto; margin: 0 auto"
+<img src="https://hissing-tibia-07d.notion.site/image/attachment%3A50773a68-1fef-427f-9b5d-0e2f918f4c08%3A%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png?table=block&id=1c4276c8-b809-8075-8c7a-dc0f0fafc77c&spaceId=89e8f60b-a87c-4e42-8eee-49efc96562bc&width=1420&userId=&cache=v2" alt="UI Screenshot" 
+style="width: 600px; height: auto"
 />
