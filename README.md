@@ -151,5 +151,5 @@ Ekiosk/
 * главном странице терминала :
 
 <img src="https://hissing-tibia-07d.notion.site/image/attachment%3A50773a68-1fef-427f-9b5d-0e2f918f4c08%3A%D0%B8%D0%B7%D0%BE%D0%B1%D1%80%D0%B0%D0%B6%D0%B5%D0%BD%D0%B8%D0%B5.png?table=block&id=1c4276c8-b809-8075-8c7a-dc0f0fafc77c&spaceId=89e8f60b-a87c-4e42-8eee-49efc96562bc&width=1420&userId=&cache=v2" alt="UI Screenshot"
-style="width: 400px; height: 400px"
+style="width: 700px; height: auto; margin: 0 auto"
 />
